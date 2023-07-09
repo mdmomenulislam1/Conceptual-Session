@@ -26,6 +26,8 @@ nav{
 
 .menus li a{
     text-decoration: none;
+    color: black;
+    font-weight: bold;
     
 }
 .banner-container{
@@ -42,14 +44,20 @@ nav{
 .banner-container{
     display: flex;
     align-items: center;
+    
+}
+
+.banner-info{
     text-align: center;
+    margin-left: 50px;
 }
 
 .banner-title{
     font-size: 55px;
     font-weight: bold;
     color: white;
-    text-align:cen
+    text-align: center;
+    margin: auto;
 }
 .text-primary{
     color: red;
@@ -57,14 +65,123 @@ nav{
 .banner-description{
     color:white;
     padding: 10px;
-
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
 }
 .banner-btn{
-
+    margin: 10px;
 }
-.banner-btn{
-
+.bg-primary{
+    color: white;
+    background-color: red;
 }
 .primary-btn{
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    
+    font-weight: bold;
 
 }
+
+.service-container{
+    height: 100vh;
+    background-image: url('asset/image/footer-bg.png'),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.4) );
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    
+}
+.left-container{
+    width: 50%;
+       
+}
+.left-container-btn-top{
+
+}
+.left-container-title{
+    margin-top: 30px;
+}
+.left-container-description{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    width: 50%;
+}
+
+
+
+.author-container{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    margin-top: 30px;
+    gap: 40px;
+}
+
+.author-profile{
+    display: flex;
+
+}
+
+.author-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
+
+.author-profile-info{
+
+}
+
+
+.author-btn{
+
+}
+
+.left-container-btn-bottom{
+
+}
+
+
+.right-container{
+
+}
+.all-box{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-around;
+
+    
+}
+.last-two-box{
+    
+}
+.box-item{
+    width: 150px;
+    height: 100px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 5px 5px 10px gray;
+    margin-top: 20px;
+}
+.icon{
+    width: 70px;
+}
+.box-item-title{
+
+}
+
+
